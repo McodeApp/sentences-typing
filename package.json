@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "main": "dist/index.js",
   "module": "dist/index.js",
+  "homepage": "https://McodeApp.github.io/sentences-typing",
   "files": [
     "dist"
   ],
@@ -21,10 +22,13 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "build": "cross-env NODE_ENV=production babel src/lib --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__",
-    "lint": "eslint src/**/*.js src/**/*.jsx"
+    "lint": "eslint src/**/*.js src/**/*.jsx",
+    "predeploy": "npm run build-examples",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "eslint": "^5.16.0",
+    "gh-pages": "^2.0.1",
     "prop-types": "^15.7.2"
   }
 }

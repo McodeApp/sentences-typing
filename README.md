@@ -2,6 +2,8 @@
 
 Sentences typing is a small react component that types
 
+## **[Demo](https://mcodeapp.github.io/sentences-typing)**
+
 ## Install
 ```shell
 npm install sentences-typing --save
@@ -31,7 +33,7 @@ export default class MyComponent extends Component {
 }
 ```
 
-##Props
+## Props
 
 #### sentences
 Array of strings for typing.
