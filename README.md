@@ -6,11 +6,11 @@ Sentences typing is a small react component that types sentence after sentence.
 
 ## Install
 ```shell
-npm install sentences-typing --save
+npm install sentences-typing-lib --save
 
 or
 
-yarn add sentences-typing
+yarn add sentences-typing-lib
 ```
 
 ## Basic Usage
